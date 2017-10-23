@@ -1,2 +1,2 @@
-# trix80.github.io
+# trix80hub.github.io
 my github web page
