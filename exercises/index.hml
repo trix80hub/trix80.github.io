@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-<title>HTML Tutorial</title>
+<title>Exercise list</title>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h1>Exercises</h1>
+<a href="trix80hub.github.io/exercises/attributes.html">attributes</a>
+<a href="trix80hub.github.io/exercises/colors.html">colors</a>
+<a href="trix80hub.github.io/exercises/comments.html">comments</a>
+<a href="trix80hub.github.io/exercises/formatting.html">formatting</a>
+<a href="trix80hub.github.io/exercises/headings.html">headings</a>
+<a href="trix80hub.github.io/exercises/links.html">links</a>
+<a href="trix80hub.github.io/exercises/paragraphs.html">paragraphs</a>
+<a href="trix80hub.github.io/exercises/quotations.html">quotations</a>
+<a href="trix80hub.github.io/exercises/styles.html">styles</a>
 
 </body>
 </html>
