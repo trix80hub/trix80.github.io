@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  background-color: violet;
+  margin: 0px;
+  padding: -10px;
+  
+}
+
+.tablehead {
+  height: 40px;
+  background-color: lightblue;
+}
+.table {
+  padding: 10px;
+  height: 100px;
+  background-color: azure;
+  border-collapse: collapse;
+}
+.table2 {
+  background-color: white;
+}
+td {
+  color: black;
+}
+table, td, th {
+  text-align: center;
+ border: 1px solid black;
+}
+h3 {
+  background-color: lightgray;
+  margin: 0px;
+  padding: 10px;
+}
+h4 {
+  background-color: white;
+  font-family: "Times New Roman", Sans-Serif;
+  margin: 0px;
+  padding: 0px;
+}
