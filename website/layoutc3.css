@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #42c2ed;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #abe0f2;
+    color: black;
+}
+
+/* indicate active page on nav */
+#activepage {
+    background-color: #28b2e0;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.center {
+  text-align: center;
+}
+table {
+  width:100%;
+}
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0px;
+}
+.azure {
+  background-color: azure;
+}
+.chartreuse {
+  background-color: chartreuse;
+}
+.chocolate {
+  background-color: chocolate;
+}
+.crimson {
+  background-color: crimson;
+}
+.forestgreen {
+  background-color: forestgreen;
+}
+
+ul {
+    background-color: deepskyblue;
+    padding: 20px;
+}
+
+ul li {
+    background-color: lightskyblue;
+    padding: 5px;
+    margin-left: 35px;
+}
